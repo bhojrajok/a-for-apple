@@ -1,0 +1,814 @@
+@font-face {
+  font-family: "GD Sherpa Regular";
+  src: url("https://db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.eot");
+  src: url("https://db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0aee6008b82cde991ec28387169bb13e.svg#GD Sherpa Regular")format("svg");
+}
+
+@import url(https://db.onlinewebfonts.com/c/493cdd3ed2b386cc9f4769df5ddf17a3?family=Kamerik+105+Cyrillic+W05+Book);
+
+li {
+  padding: 5px 5px
+}
+
+.discuss {
+  background: linear-gradient(95deg, #65CBF3 6.5%, #661CFC 48.41%, #9365FE 79.63%, #BEACFF 97.32%);
+  box-shadow: 0px 4px 12px 0px rgba(101, 203, 243, 0.51);
+
+  word-spacing: 2px;
+}
+
+.discuss2 {
+  background: linear-gradient(95deg, #65CBF3 6.5%, #661CFC 48.41%, #9365FE 79.63%, #BEACFF 97.32%);
+  box-shadow: 0px 4px 12px 0px rgba(101, 203, 243, 0.51);
+  display: none;
+  word-spacing: 2px;
+}
+
+#but {
+  margin-top: 0px;
+  display: none;
+  padding: 12px 65px;
+}
+
+
+.ok {
+  font-size: 64px;
+  font-weight: 200;
+  word-wrap: normal;
+  line-height: 70px;
+}
+
+.trust {
+  font-size: 45px;
+  font-weight: 500;
+  word-spacing: 3px;
+}
+
+
+.success-grad {
+
+  font-weight: 700;
+  background: linear-gradient(271deg, #65CBF3 35.2%, #661CFC 76.69%, #9365FE 99.35%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.explore {
+  border-radius: 17px;
+  padding: 8px 40px;
+}
+
+.explore>a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: GD Sherpa Regular;
+  font-size: 17px;
+
+  font-weight: 400;
+}
+
+
+
+.trust-grad {
+  background: linear-gradient(271deg, #65CBF3 10.37%, #661CFC 87.76%, #9365FE 94.73%, #BEACFF 98.2%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 40px 0;
+  white-space: nowrap;
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 30px;
+  filter: grayscale(100%);
+  opacity: 0.65;
+  transition: 0.5s all;
+
+}
+
+.logos-slide img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+
+
+.empower {
+  color: #545454;
+  text-align: center;
+  font-family: Kamerik 105 Cyrillic;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+
+
+}
+
+.emp-grad {
+  background: linear-gradient(271deg, #65CBF3 9.37%, #661CFC 80.76%, #9365FE 99.73%, #BEACFF 0.2%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.h-chos{
+  font-size:40px;
+}
+
+.choose-us {
+  background: linear-gradient(93deg, #9747FF 21.23%, #661CFC 36.97%, #BEACFF 52.13%, #68E1FD 64.04%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+
+}
+
+.allcard {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardone {
+  position: relative;
+  width: 50%;
+}
+
+.inone {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayone {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9747ff;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  border-radius: 20px;
+}
+
+.cardone:hover .overlayone {
+  height: 100%;
+}
+
+.cardtwo {
+  position: relative;
+  width: 50%;
+}
+
+.intwo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlaytwo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9747ff;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  border-radius: 20px;
+}
+
+.cardtwo:hover .overlaytwo {
+  height: 100%;
+}
+
+.cardthree {
+  position: relative;
+  width: 50%;
+}
+
+.inthree {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlaythree {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9747ff;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  border-radius: 20px;
+}
+
+.cardthree:hover .overlaythree {
+  height: 100%;
+}
+
+.textin {
+  background-color: #9747ff;
+  font-size: 12px;
+  padding: 0px 45px;
+  padding-top: 45px;
+  color: white;
+}
+
+.texttwo {
+  background-color: #9747ff;
+  font-size: 12px;
+  padding: 0px 45px;
+  padding-top: 60px;
+  color: white;
+}
+
+.textthree {
+  background-color: #9747ff;
+  font-size: 12px;
+  padding: 0px 40px;
+  padding-top: 25px;
+  color: white;
+}
+
+.badidiv {
+  margin-top: 100px;
+}
+
+.indivtext {
+  margin-top: 100px;
+}
+
+.uppercardpart {
+  margin-top: 100px;
+}
+
+.textlatest {
+  color: #545454;
+  text-align: center;
+  font-family: Kamerik 105 Cyrillic;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.3%;
+}
+
+.textlatestsmall {
+  margin-top: 10px;
+  color: #7a7a7a;
+  text-align: center;
+  font-family: GD Sherpa Regular;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.3%;
+}
+
+.cardpartwo {
+  height: 800px;
+}
+
+.cardtextin {
+  margin-left: 10px;
+  color: #545454;
+  font-family: GD Sherpa Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.3%;
+}
+
+.headingcardown {
+  color: #1e1e1e;
+  font-family: Kamerik 105 Cyrillic;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.3%;
+  margin-bottom: 20px;
+}
+
+.innerparacard {
+  color: #661cfc;
+  font-family: GD Sherpa Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.3%;
+}
+
+.downviewbox {
+  margin-top: 40px;
+  display: inline-flex;
+  padding: 0px 10px;
+  border-radius: 10px;
+  background: #e7dbff;
+  color: #661cfc;
+  font-family: GD Sherpa Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footertext {
+  color: inherit;
+  text-decoration: none;
+  color: #989898;
+  font-family: GD Sherpa Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.3%;
+}
+
+.lasttext {
+  color: #FFF;
+  text-align: center;
+  font-family: GD Sherpa Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.3%;
+}
+
+
+.card-text{
+  background: linear-gradient(95deg, #661CFC 19.6%, #9747FF 38.95%, #9365FE 57.52%, #68E1FD 77.11%);
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              font-size: 32px;
+              font-style: normal;
+              font-weight: 700;
+}
+
+
+
+
+
+
+
+.video-con {
+  background: #9747FF;
+  height: 820px;
+}
+
+.content {
+  padding: 75px 0;
+}
+
+.vid {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.blank {
+  height: 600px;
+  width: 80%;
+}
+
+
+.process {
+  color: #545454;
+  font-family: Kamerik 105 Cyrillic;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.great {
+  font-family: Kamerik 105 Cyrillic;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+
+  background: linear-gradient(141deg, #661CFC 0%, #9747FF 39.07%, #68E1FD 77.2%, #661CFC 112.64%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.hidden-div {
+  display: block;
+}
+
+
+.item {
+  position: relative;
+  overflow: hidden;
+  height: 350px;
+  background-color: #f3f3f3;
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+.item h4 {
+  font-size: 90px;
+  color: #7e7e7e;
+  margin: 28px 18px;
+  z-index: 3;
+
+}
+
+.item p {
+  text-align: left;
+  width: 80%;
+  margin-top: 70px;
+  margin-left: 42px;
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 700;
+
+
+}
+
+#oo{
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.item-grad {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  background: linear-gradient(141deg, #661CFC 0%, #9747FF 39.07%, #68E1FD 77.2%, #661CFC 112.64%);
+  transition: all 0.3s ease-in-out;
+  color: white;
+
+
+}
+
+.item-grad h4 {
+  color: white;
+}
+
+.item:hover .item-text {
+  opacity: 0;
+}
+
+
+
+.item:hover .item-grad {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+
+}
+
+
+.owl-dots {
+  display: none;
+}
+
+.owl-nav {
+  display: none;
+}
+
+@media (max-width:995px) {
+
+  .ok {
+    margin-top: 50px;
+
+  }
+
+  .explore {
+    display: none;
+  }
+
+  #but {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .empower {
+    font-size: 35px;
+
+  }
+
+  .video-con {
+    height: 580px;
+  }
+
+  .content {
+    padding: 45px 0;
+  }
+
+
+  .blank {
+    height: 360px;
+  }
+
+  .hidden-div {
+    display: none;
+  }
+
+  .h-chos{
+    font-size: 38px;
+  }
+
+}
+
+
+@media(max-width:578px) {
+  .ok {
+    margin-top: 0px;
+
+  }
+
+  .empower {
+    font-size: 22px;
+  }
+
+  .video-con {
+    height: 420px;
+  }
+
+  .content {
+    padding: 25px 0;
+  }
+
+  .vid {
+    font-size: 22px;
+  }
+
+  .blank {
+    height: 230px;
+  }
+
+  .item h4 {
+    font-size: 80px;
+  }
+
+  .item p {
+    font-size: 30px;
+  }
+
+  .h-chos{
+    font-size: 28px;
+    text-align: center  ;
+  }
+}
+
+@media screen and (min-width: 281px) and (max-width: 520px) {
+  .ok {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .trust {
+    font-size: 27px;
+  }
+
+  .logos-slide img {
+    height: 40px;
+    margin: 0 15px;
+  }
+
+  .process {
+    font-size: 32px;
+  }
+
+  .great {
+    font-size: 24px;
+  }
+
+  .h-chos{
+    font-size: 26px;
+  }
+}
+
+
+@media(max-width:347px){
+  .card-text{
+    font-size:28px ;
+  }
+}
+
+
+@media (max-width:280px) {
+  .ok {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .trust {
+    font-size: 20px;
+  }
+
+  .logos-slide img {
+    height: 30px;
+    margin: 0 10px;
+  }
+
+  .empower {
+    font-size: 18px;
+  }
+
+  .video-con {
+    height: 360px;
+  }
+
+  .vid {
+    font-size: 18px;
+  }
+
+  .blank {
+    height: 180px;
+  }
+
+  .process {
+    font-size: 26px;
+  }
+
+  .great {
+    font-size: 18px;
+  }
+
+  .item h4 {
+    font-size: 60px;
+  }
+
+  .item p {
+    font-size: 22px;
+    margin-left: 20px;
+  }
+
+  #oo{
+    font-size: 22px;
+  }
+
+  .h-chos{
+    font-size: 22px;
+  }
+
+  .card-text{
+    font-size: 24px;
+  }
+
+  .textin{
+    font-size: 10px;
+    padding-top: 20px;
+  }
+  
+  .texttwo{
+    font-size: 10.5px;
+    padding-top: 20px;
+  }
+  
+  .textthree{
+    font-size: 9px;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.swiper-pagination {
+  left: 10px; 
+  right: auto !important; 
+}
+
+.swiper-pagination-bullet {
+  width: 8px; 
+  height: 8px; 
+  background: linear-gradient(141deg, #661CFC 0%, #9747FF 39.07%, #68E1FD 77.2%, #661CFC 112.64%) ;
+  margin: 5px 5px; 
+}
+
+.swiper-pagination-bullet-active {
+  background-color: transparent; 
+}
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+.mySwiper{
+  height: 10vh;
+  width: 10vh;
+}
+
+
+.swiper-pagination-bullet {
+  background: linear-gradient(141deg, #661CFC 0%, #9747FF 39.07%, #68E1FD 77.2%, #661CFC 112.64%) !important;
+}
+.slideleft{
+  height:450px;
+  width: 100%;
+}
+.slideright{
+  width:50%;
+  overflow: hidden;
+}
+
+.slideright img{
+  width: 50%;
+  height: 50%;
+}
